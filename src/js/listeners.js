@@ -79,7 +79,7 @@ class Listeners {
         event.stopPropagation();
       }
 
-      switch (code) {
+     /* switch (code) {
         case 48:
         case 49:
         case 50:
@@ -148,7 +148,7 @@ class Listeners {
           player.loop = !player.loop;
           break;
 
-        /* case 73:
+        /!* case 73:
                     this.setLoop('start');
                     break;
 
@@ -158,11 +158,11 @@ class Listeners {
 
                 case 79:
                     this.setLoop('end');
-                    break; */
+                    break; *!/
 
         default:
           break;
-      }
+      }*/
 
       // Escape is handle natively when in full screen
       // So we only need to worry about non native
